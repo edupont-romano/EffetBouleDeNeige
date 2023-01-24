@@ -1,0 +1,20 @@
+    UNIT=MM
+PAGE=210,297,PORTRAIT,HV
+DPI=300
+CARDSIZE=63,88
+BASERANGE=,ON
+
+rectangle=,0,0,100%,100%,#FEFEFE
+LINKSEP = ;
+LINKAUTO=ON
+LINK=cartes.csv
+VISUAL=HVGP, 20, 20
+;Image(snap)
+IMAGE="1-{(CENTRE)}",[CENTRE],15%,15%,{46400/573}%,{523/8}%,0,TP
+;topLeft(snap)
+IMAGE="1-{(ICONE)}",[ICONE],5%,5%,{4400/191}%,21.25%,0,TP
+ENDVISUAL
+
+
+SAVE=,"../../Images/cartes/carte_{§}.png",0,0,100%,100%,#FEFEFE
+SAVE=,"../../Images/cartes/avecFond/carte_{§}.png",0,0,100%,100%,

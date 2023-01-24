@@ -1,0 +1,28 @@
+;CARDS=66
+;BORDER=ROUNDED,#000000,0.1
+UNIT=MM
+PAGE=210,297,PORTRAIT,HV
+DPI=300
+CARDSIZE=63,88
+BASERANGE=,ON
+
+rectangle=,0,0,100%,100%,#000000
+LINKSEP = ;
+LINKAUTO=ON
+LINK=verso.csv
+VISUAL=HVGPS, 20, 20
+;Image(snap)(size)
+;IMAGE="1-{(ICONE)}",[ICONE],10%,5%,15%,10%,0,PN
+;Image(snap)(size)
+IMAGE="1-{(MEEPLE)}",[MEEPLE],15%,15%,70%,70%,0,TP
+ENDVISUAL
+
+SAVE=,"../../Images/versoCartes/verso_{§}.png",0,0,100%,100%,#000000
+SAVE=,"../../Images/versoCartes/avecFond/verso_{§}.png",0,0,100%,100%,
+
+SAVE=1,"../../Images/versoCartes/versoBleu.png",0,0,100%,100%,
+SAVE=12,"../../Images/versoCartes/versoGris.png",0,0,100%,100%,
+SAVE=23,"../../Images/versoCartes/versoJaune.png",0,0,100%,100%,
+SAVE=34,"../../Images/versoCartes/versoRouge.png",0,0,100%,100%,
+SAVE=45,"../../Images/versoCartes/versoVert.png",0,0,100%,100%,
+SAVE=56,"../../Images/versoCartes/versoViolet.png",0,0,100%,100%,

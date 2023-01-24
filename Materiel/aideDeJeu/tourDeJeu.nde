@@ -1,0 +1,31 @@
+CARDS=4
+BORDER=ROUNDED,#000000,0.1
+UNIT=CM
+PAGE=21,29.7,PORTRAIT,HV
+DPI=300
+CARDSIZE=6,8.5
+BASERANGE=,ON
+VISUAL=GP, 30, 30
+;Font(snap)(size)
+FONT=MV Boli,18,T,#000000
+;[PHASE1]Image(snap)
+IMAGE=1-4,../../Images/aideDeJeu/phase1.png,{800/30}%,{100/30}%,{7540/113}%,20%,0,TP
+;[PHASE1]Text(snap)(size)
+TEXT=1-4,1*,0%,{200/30}%,{500/30}%,{500/30}%
+;[PHASE2]Image(snap)(size)
+IMAGE=1-4,../../Images/aideDeJeu/phase2.png,40%,{800/30}%,30%,10%,0,TP
+;[PHASE2]Text(snap)(size)
+TEXT=1-4,2,0%,{700/30}%,{500/30}%,{500/30}%
+;[PHASE3]Image(snap)(size)
+IMAGE=1-4,../../Images/aideDeJeu/phase3.png,{1000/30}%,{1300/30}%,{1600/30}%,20%,0,P
+;[PHASE3]Text(snap)(size)
+TEXT=1-4,3,0%,{1300/30}%,{500/30}%,{500/30}%
+;[PHASE4]Image(snap)(size)
+IMAGE=1-4,../../Images/aideDeJeu/phase4.png,{1100/30}%,{1900/30}%,{1600/30}%,20%,0,tP
+;[PHASE4]Text(snap)(size)
+TEXT=1-4,4,0%,{1900/30}%,{500/30}%,{500/30}%
+;[FACULTATIF]Rectangle(snap)
+RECTANGLE=1-4,{200/30}%,{2600/30}%,{9740/113}%,{75/8}%,#000000,EMPTY,0.05
+;[FACULTATIF]Text(snap)
+TEXT=1-4,"*: facultatif",{200/30}%,{2600/30}%,{9800/113}%,10%
+ENDVISUAL

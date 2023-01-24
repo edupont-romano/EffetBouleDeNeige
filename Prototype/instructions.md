@@ -1,0 +1,1 @@
+This folder must contains all scribus files and pdf to prnt a prototype. The files must be clear (`carte-verso.sla`, `etiquettes-dé.pdf`, etc.).

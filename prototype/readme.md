@@ -1,0 +1,1 @@
+Ce dossier contient tous les fichiers `*.sla` (scribus) pour générer les proto physiques
